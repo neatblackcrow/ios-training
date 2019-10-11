@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C6L-6D-WIV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sample Grader-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Grader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fz-vx-mrZ">
+                                <rect key="frame" x="34" y="120" width="50" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your score" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pR9-Rl-On6">
+                                <rect key="frame" x="94" y="120" width="234" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxI-5v-K2K">
+                                <rect key="frame" x="338" y="120" width="42" height="34"/>
+                                <state key="normal" title="Grade"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not calculated" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ai-Hw-xAT">
+                                <rect key="frame" x="34" y="186" width="346" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3ai-Hw-xAT" firstAttribute="top" secondItem="2fz-vx-mrZ" secondAttribute="bottom" constant="32" id="A4E-3T-mKl"/>
+                            <constraint firstItem="3ai-Hw-xAT" firstAttribute="leading" secondItem="2fz-vx-mrZ" secondAttribute="leading" id="DaY-f9-GHX"/>
+                            <constraint firstItem="pR9-Rl-On6" firstAttribute="top" secondItem="2fz-vx-mrZ" secondAttribute="top" id="DvH-3m-EXZ"/>
+                            <constraint firstItem="XxI-5v-K2K" firstAttribute="leading" secondItem="pR9-Rl-On6" secondAttribute="trailing" constant="10" id="HLi-Fp-RpP"/>
+                            <constraint firstItem="2fz-vx-mrZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="Kiz-mH-ahO"/>
+                            <constraint firstItem="XxI-5v-K2K" firstAttribute="top" secondItem="2fz-vx-mrZ" secondAttribute="top" id="KxD-rA-PK1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XxI-5v-K2K" secondAttribute="trailing" constant="34" id="luI-8E-zmh"/>
+                            <constraint firstItem="pR9-Rl-On6" firstAttribute="leading" secondItem="2fz-vx-mrZ" secondAttribute="trailing" constant="10" id="rST-UN-gOJ"/>
+                            <constraint firstItem="XxI-5v-K2K" firstAttribute="bottom" secondItem="2fz-vx-mrZ" secondAttribute="bottom" id="rgT-sT-IzD"/>
+                            <constraint firstItem="3ai-Hw-xAT" firstAttribute="trailing" secondItem="XxI-5v-K2K" secondAttribute="trailing" id="sdN-dW-SgI"/>
+                            <constraint firstItem="pR9-Rl-On6" firstAttribute="bottom" secondItem="2fz-vx-mrZ" secondAttribute="bottom" id="wpE-yH-6Um"/>
+                            <constraint firstItem="2fz-vx-mrZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="z8z-x8-YJQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sample Grader" id="GRW-a9-2Z3"/>
+                    <connections>
+                        <outlet property="btnGrade" destination="XxI-5v-K2K" id="UZ8-vs-Dn1"/>
+                        <outlet property="lblGrade" destination="3ai-Hw-xAT" id="0yA-oK-I4N"/>
+                        <outlet property="txtScore" destination="pR9-Rl-On6" id="sua-Ia-41v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Xr-pP-fqD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C6L-6D-WIV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9zh-bW-9K4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KYH-Dn-wBO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wD6-jM-LZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,17 @@
+project 'glo-training3.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+use_frameworks!
+
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'SwiftyJSON'
+
+target 'glo-training3' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+
+  # Pods for glo-training3
+
+end

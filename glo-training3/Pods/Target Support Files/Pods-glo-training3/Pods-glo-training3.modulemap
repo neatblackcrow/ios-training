@@ -1,0 +1,6 @@
+framework module Pods_glo_training3 {
+  umbrella header "Pods-glo-training3-umbrella.h"
+
+  export *
+  module * { export * }
+}
