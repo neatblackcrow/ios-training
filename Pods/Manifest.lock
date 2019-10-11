@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.0)
+  - IHProgressHUD (0.1.4)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IHProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IHProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  IHProgressHUD: a01846bfbb581c761c79747c67b08387c3bdfae3
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 4d5eee12a979947c5e53528d0a04952ad1586d48
+
+COCOAPODS: 1.5.2

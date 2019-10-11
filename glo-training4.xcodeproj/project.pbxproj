@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1431A033070027B3A9D1486 /* Pods_glo_training4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE74E4496955B30356FBDA8 /* Pods_glo_training4.framework */; };
+		F5D7000023502A9D00F46735 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F5D7FFFF23502A9D00F46735 /* .gitignore */; };
+		F5D7FFEC234ED13100F46735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7FFEB234ED13100F46735 /* AppDelegate.swift */; };
+		F5D7FFEE234ED13100F46735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7FFED234ED13100F46735 /* SceneDelegate.swift */; };
+		F5D7FFF0234ED13100F46735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7FFEF234ED13100F46735 /* ViewController.swift */; };
+		F5D7FFF3234ED13100F46735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D7FFF1234ED13100F46735 /* Main.storyboard */; };
+		F5D7FFF5234ED13100F46735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D7FFF4234ED13100F46735 /* Assets.xcassets */; };
+		F5D7FFF8234ED13100F46735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D7FFF6234ED13100F46735 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05EAABCE6D37BBDBBAEB1D5F /* Pods-glo-training4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glo-training4.release.xcconfig"; path = "Pods/Target Support Files/Pods-glo-training4/Pods-glo-training4.release.xcconfig"; sourceTree = "<group>"; };
+		EAE74E4496955B30356FBDA8 /* Pods_glo_training4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_glo_training4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE555F6918D82C2BEC5663AF /* Pods-glo-training4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-glo-training4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-glo-training4/Pods-glo-training4.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D7FFE8234ED13100F46735 /* glo-training4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glo-training4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D7FFEB234ED13100F46735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D7FFED234ED13100F46735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5D7FFEF234ED13100F46735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D7FFF2234ED13100F46735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D7FFF4234ED13100F46735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D7FFF7234ED13100F46735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5D7FFF9234ED13100F46735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D7FFFF23502A9D00F46735 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D7FFE5234ED13100F46735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1431A033070027B3A9D1486 /* Pods_glo_training4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3906BB750076E1C1AF74F643 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE555F6918D82C2BEC5663AF /* Pods-glo-training4.debug.xcconfig */,
+				05EAABCE6D37BBDBBAEB1D5F /* Pods-glo-training4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67AA591F0B909AEBE8746875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE74E4496955B30356FBDA8 /* Pods_glo_training4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D7FFDF234ED13100F46735 = {
+			isa = PBXGroup;
+			children = (
+				F5D7FFFF23502A9D00F46735 /* .gitignore */,
+				F5D7FFEA234ED13100F46735 /* glo-training4 */,
+				F5D7FFE9234ED13100F46735 /* Products */,
+				3906BB750076E1C1AF74F643 /* Pods */,
+				67AA591F0B909AEBE8746875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D7FFE9234ED13100F46735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7FFE8234ED13100F46735 /* glo-training4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D7FFEA234ED13100F46735 /* glo-training4 */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7FFEB234ED13100F46735 /* AppDelegate.swift */,
+				F5D7FFED234ED13100F46735 /* SceneDelegate.swift */,
+				F5D7FFEF234ED13100F46735 /* ViewController.swift */,
+				F5D7FFF1234ED13100F46735 /* Main.storyboard */,
+				F5D7FFF4234ED13100F46735 /* Assets.xcassets */,
+				F5D7FFF6234ED13100F46735 /* LaunchScreen.storyboard */,
+				F5D7FFF9234ED13100F46735 /* Info.plist */,
+			);
+			path = "glo-training4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D7FFE7234ED13100F46735 /* glo-training4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D7FFFC234ED13100F46735 /* Build configuration list for PBXNativeTarget "glo-training4" */;
+			buildPhases = (
+				D3213DD4BACAED3CE9169DD9 /* [CP] Check Pods Manifest.lock */,
+				F5D7FFE4234ED13100F46735 /* Sources */,
+				F5D7FFE5234ED13100F46735 /* Frameworks */,
+				F5D7FFE6234ED13100F46735 /* Resources */,
+				35B186C5FF2AED86D8C3232E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "glo-training4";
+			productName = "glo-training4";
+			productReference = F5D7FFE8234ED13100F46735 /* glo-training4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D7FFE0234ED13100F46735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = GLO_macbookpro;
+				TargetAttributes = {
+					F5D7FFE7234ED13100F46735 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F5D7FFE3234ED13100F46735 /* Build configuration list for PBXProject "glo-training4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D7FFDF234ED13100F46735;
+			productRefGroup = F5D7FFE9234ED13100F46735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D7FFE7234ED13100F46735 /* glo-training4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D7FFE6234ED13100F46735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D7000023502A9D00F46735 /* .gitignore in Resources */,
+				F5D7FFF8234ED13100F46735 /* LaunchScreen.storyboard in Resources */,
+				F5D7FFF5234ED13100F46735 /* Assets.xcassets in Resources */,
+				F5D7FFF3234ED13100F46735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B186C5FF2AED86D8C3232E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-glo-training4/Pods-glo-training4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IHProgressHUD/IHProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-glo-training4/Pods-glo-training4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3213DD4BACAED3CE9169DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-glo-training4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D7FFE4234ED13100F46735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D7FFF0234ED13100F46735 /* ViewController.swift in Sources */,
+				F5D7FFEC234ED13100F46735 /* AppDelegate.swift in Sources */,
+				F5D7FFEE234ED13100F46735 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5D7FFF1234ED13100F46735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D7FFF2234ED13100F46735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D7FFF6234ED13100F46735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D7FFF7234ED13100F46735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D7FFFA234ED13100F46735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D7FFFB234ED13100F46735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D7FFFD234ED13100F46735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE555F6918D82C2BEC5663AF /* Pods-glo-training4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glo-training4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glo.glo-training4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D7FFFE234ED13100F46735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EAABCE6D37BBDBBAEB1D5F /* Pods-glo-training4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glo-training4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glo.glo-training4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D7FFE3234ED13100F46735 /* Build configuration list for PBXProject "glo-training4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D7FFFA234ED13100F46735 /* Debug */,
+				F5D7FFFB234ED13100F46735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D7FFFC234ED13100F46735 /* Build configuration list for PBXNativeTarget "glo-training4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D7FFFD234ED13100F46735 /* Debug */,
+				F5D7FFFE234ED13100F46735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D7FFE0234ED13100F46735 /* Project object */;
+}
